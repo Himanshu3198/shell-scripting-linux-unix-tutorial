@@ -8,3 +8,11 @@ echo $sum
 echo $dif
 echo $prod
 echo $quo
+
+read n1
+read n2
+
+echo $[n1 + n2]
+echo $[n1 - n2]
+echo $[n1 * n2]
+echo $[n1 / n2]
