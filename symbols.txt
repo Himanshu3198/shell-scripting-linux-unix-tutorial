@@ -1,0 +1,23 @@
+> symbol: This symbol is used for output redirection. It redirects the standard output of a command to a file. If the file already exists, it will be overwritten. For example, if you want to redirect the output of the ls command to a file named filelist.txt, you would use the following command:
+bash
+Copy code
+ls > filelist.txt
+This will create a file called filelist.txt in the current directory and write the output of the ls command to it.
+
+< symbol: This symbol is used for input redirection. It redirects the standard input of a command from a file. For example, if you want to read input from a file named input.txt for the grep command, you would use the following command:
+graphql
+Copy code
+grep "pattern" < input.txt
+This will read the contents of input.txt and search for the specified pattern.
+
+>> symbol: This symbol is used for appending output to a file. It redirects the standard output of a command and appends it to a file. If the file does not exist, it will be created. For example, if you want to append the output of the date command to a file named logfile.txt, you would use the following command:
+bash
+Copy code
+date >> logfile.txt
+This will append the current date and time to the end of logfile.txt.
+
+
+
+
+
+Regenerate response
